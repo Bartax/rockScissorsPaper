@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/rps.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: rgba(110, 201, 237, 0.8);
+    padding: 0;
+}
+
+
+.welcome-container {
+    text-transform: uppercase;
+}
+
+.welcome-container h1 {
+    font-size: 40px;
+    background: rgba(215, 151, 44, 0.6);
+    color: white;
+    width: 100%;
+}
+
+.container {
+    padding: 20px 0;
+    width: 100%;
+}
+
+
+.user {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
